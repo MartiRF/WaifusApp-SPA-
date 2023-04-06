@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link{
+  @apply text-xl hover:text-purple-500 duration-500
+}

@@ -1,11 +1,11 @@
 import React from 'react'
 import { AnimeList } from '../components/AnimeList'
 
-export const KitsunePage = () => {
+export const NekoPage = () => {
   return (
     <>
-    <h1>KitsunePage</h1>
-    <AnimeList category={'kitsune'} />
+      <h1>NekoPage</h1>
+      <AnimeList category={'neko'} />
     </>
   )
 }
