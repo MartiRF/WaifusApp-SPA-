@@ -23,7 +23,7 @@ export const NavBar = () => {
         </span>
       </div>
 
-      <ul className={`${isOpen ? 'top-[80px] opacity-100 z-10' : 'opacity-0 top-[-400px]'}` + " md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 transition-all ease-in duration-500"}>
+      <ul onClick={() =>setIsOpen(!isOpen)} className={`${isOpen ? 'top-[80px] opacity-100' : 'opacity-0 top-[-400px]'}` + " md:flex md:items-center md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 transition-all ease-in duration-500 z-30"}>
         <li className="mx-4 my-6 md:my-0">
           <NavLink to="/waifu" className="link">WAIFUS</NavLink>
         </li>
